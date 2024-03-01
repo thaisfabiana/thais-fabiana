@@ -1,4 +1,4 @@
-@import url(‘https://fonts.googleapis.com/ css2?family=Chakra+Petch:wght@400;700&display=swap’);
+@import url('https://fonts.googleapis.com/ css2?family=Chakra+Petch:wght@400;700&display=swap');
 :root { 
     --cor-de-fundo: #1E1E1E; 
     --verde: #6FFF57; 
@@ -10,7 +10,7 @@
 body {
     background-color: var(--cor-de-fundo);
     color: var(--branco); 
-    font-family: ‘Chakra Petch’, sans-serif;
+    font-family: 'Chakra Petch', sans-serif;
     }
 .conteudo-principal { 
     display: flex;
@@ -21,7 +21,30 @@ body {
     width: 100%;
     margin: 0 auto;
     }
-.titulo-principal { text-align: left;
+.titulo-principal { 
+    text-align: left;
     width: 100%;
     font-size: 32 px;
+}
+.titulo-principal span {
+color: var (--verde);
+}
+.botao { 
+    font-family: «Crakra Petch», sans-serif;
+    background-color: var(--botao-inativo);
+    color: var(--branco); display: flex;
+    justify-content: center;
+    padding: 1 em;
+    font-size: 18 px;
+    align-items: center;
+    width: 100%;
+}
+border-bottom: 4 px solid var(--botao-ativo);
+border-left: 2 px solid var(--botao-ativo); 
+border-right: 2 px solid var(--botao-ativo);
+border-top: none;
+.botoes { display: block;
+}
+@media screen and (min-width: 768px) { .botoes { display: flex;
+}
 }
